@@ -12,7 +12,7 @@ const sentenceDBRouter = require('./routes/sentenceDB')
 app.use('/sentenceDB', sentenceDBRouter)
 
 
-app.get("/", (res) => {
+app.get("/", (req, res) => {
     res.sendStatus(200)
 })
 

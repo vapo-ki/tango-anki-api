@@ -11,6 +11,8 @@ app.use('/jishoResult', jishoResultsRouter)
 const sentenceDBRouter = require('./routes/sentenceDB')
 app.use('/sentenceDB', sentenceDBRouter)
 
+const audioRouter = require('./routes/audio')
+app.use('/audio', audioRouter)
 
 app.get("/", (req, res) => {
     res.sendStatus(200)

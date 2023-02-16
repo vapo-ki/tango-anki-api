@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const router = express.Router()
-const sentenceJson = require('../sentenceDB/sentenceMatrix2.json')
+const sentenceJson = require('../sentenceDB/sentenceMatrix3.json')
 
 const corsOptions = {
     origin: '*'
